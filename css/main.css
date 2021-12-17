@@ -210,12 +210,14 @@ height: 120px;
 .tasks-item{
   width: 847px;
   background-color: #2e2c9c;
-  padding: 30px 35px;
+  padding: 30px 45px;
   margin-bottom: 14px;
   display: flex;
   flex-direction: row;
 }
-
+.tasks-item div{
+  width: 560px;
+}
 .tasks-title{
   color: #fff;
   font-size: 20px;
@@ -228,21 +230,21 @@ height: 120px;
 }
 .item-1::before{
   content: '';
-  width: 140px;
+  width: 88px;
   height: 88px;
   background-image: url('https://assets.htmlacademy.ru/img/tutors/ruler-icon.svg');
   margin-right: 30px;
 }
 .item-2::before{
   content: '';
-  width: 100px;
+  width: 88px;
   height: 88px;
   background-image: url('https://assets.htmlacademy.ru/img/tutors/consulting-icon.svg');
   margin-right: 30px;
 }
 .item-3::before{
   content: '';
-  width: 150px;
+  width: 88px;
   height: 88px;
   background-image: url('https://assets.htmlacademy.ru/img/tutors/bottle-icon.svg');
   margin-right: 30px;
