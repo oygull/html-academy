@@ -67,9 +67,10 @@ body{
   top: 0;
   padding: 15px 70px;
   background-color: #2f2683;
-  opacity: 0.9;
   filter: blur(0.2px);
   justify-content: space-between;
+  
+  
 }
 .fixed-list{
   list-style: none;
@@ -109,11 +110,9 @@ body{
 }
 .hero-part{
   padding: 85px 0px;
-
-}
-.hero-content{
   background-color: #2f2683;
 }
+
 .hero-desc{
   width: 360px;
   margin-right: 120px;
