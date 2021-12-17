@@ -1,0 +1,249 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Nunito', sans-serif;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.header-list{
+  align-items: center;
+  list-style: none;
+}
+.header-main{
+  background-color: #2d2d43;
+  padding: 20px 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo{
+  width: 250px;
+  height: 40px;
+}
+.list-item{
+  margin-right: 25px;
+  display: flex;
+  align-items: center;
+}
+.list-link{
+  color: white;
+  text-decoration: none;
+
+}
+.header-inner{
+  align-items: center;
+}
+.header-logo-img{
+  width: 250px;
+  height: 40px;
+}
+.header-inner-link1{
+  color: white;
+  text-decoration: none;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+.header-inner-link2{
+  color: white;
+  text-decoration: none;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+}
+.bx{
+  display: inline-block;
+  font-size: 20px;
+  color: #9696a1;
+  margin-right: 8px;
+}
+.fixed-header{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 15px 70px;
+  background-color: #2f2683;
+  opacity: 0.9;
+  filter: blur(0.2px);
+  justify-content: space-between;
+}
+.fixed-list{
+  list-style: none;
+  align-items: center;
+}
+.fixed-item{
+  margin-right: 25px;
+}
+.fixed-link{
+  text-decoration: none;
+  color: white;
+}
+.btn{
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+.fixed-btn{
+  background-color: #4db543;
+  color: #fff;
+}
+.fixed-btn:hover{
+  background-color: #4cb543cc;
+}
+.fixed-btn:focus{
+  outline: 4px solid #195513cc;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+.hero-heading{
+  font-size: 36px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.hero-part{
+  padding: 85px 0px;
+
+}
+.hero-content{
+  background-color: #2f2683;
+}
+.hero-desc{
+  width: 360px;
+  margin-right: 120px;
+}
+.hero-div{
+  justify-content: space-evenly;
+}
+.hero-text{
+  color: white;
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 26px;
+  text-align: left;
+}
+.hero-btn{
+  text-decoration: none;
+  color: white;
+  border: 2px solid #4db543;
+}
+.hero-btn:hover{
+  text-decoration: none;
+  color: white;
+  background-color: #4db543;
+  border: 2px solid #4db543;
+}
+.site-aside{
+  padding: 55px 0px;
+  background-color: #4db543;
+}
+.aside-text{
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+  margin-right: 30px;
+}
+.aside-btn{
+  background-color: #fff;
+  color: #4db543;
+  text-decoration: none;
+}
+.aside-btn:hover{
+  background-color: rgb(233, 233, 233);
+}
+.aside-div{
+  align-items: center;
+  justify-content: center;
+
+}
+#mentoring{
+  padding: 94px 0px;
+  background-color: #f8f8f8;
+}
+.heading{
+  font-size: 36px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 42px;
+  text-align: center;
+}
+.mentoring-list{
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.mentorin-item{
+  width: 380px;
+  padding: 10px 60px;
+  margin-bottom: 30px;
+}
+.img-box{
+text-align: center;
+height: 120px;
+}
+.mentoring-title{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 5px;
+}
+#tasks{
+  padding: 95px 0px 125px 0px;
+  background-image: url('https://assets.htmlacademy.ru/img/icons/bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tasks-list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tasks-item{
+  width: 847px;
+  background-color: #2e2c9c;
+  padding: 30px 35px;
+  margin-bottom: 14px;
+  display: flex;
+  flex-direction: row;
+}
+
+.tasks-title{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.tasks-text{
+  font-size: 16px;
+  color: #fff;
+}
+.item-1::before{
+  content: '';
+  width: 140px;
+  height: 88px;
+  background-image: url('https://assets.htmlacademy.ru/img/tutors/ruler-icon.svg');
+  margin-right: 30px;
+}
+.item-2::before{
+  content: '';
+  width: 100px;
+  height: 88px;
+  background-image: url('https://assets.htmlacademy.ru/img/tutors/consulting-icon.svg');
+  margin-right: 30px;
+}
+.item-3::before{
+  content: '';
+  width: 150px;
+  height: 88px;
+  background-image: url('https://assets.htmlacademy.ru/img/tutors/bottle-icon.svg');
+  margin-right: 30px;
+}
