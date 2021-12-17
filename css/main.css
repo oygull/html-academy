@@ -62,7 +62,6 @@ body{
   margin-right: 8px;
 }
 .fixed-header{
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   padding: 15px 70px;
